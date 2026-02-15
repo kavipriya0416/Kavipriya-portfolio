@@ -10,7 +10,7 @@
 }
 
 body {
-    background: linear-gradient(135deg, #ff4eac, #444358, #603958);
+    background: linear-gradient(135deg, #ff4eac, #574065, #8e5483);
     min-height: 100vh;
     color:white;
     padding-bottom: 40px;
@@ -24,7 +24,6 @@ header {
     padding: 15px 8%;
     background: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(10px);
-    
     top: 0;
     z-index: 1000;
 }
@@ -36,7 +35,7 @@ header {
 }
 
 .logo img:hover {
-    transform: rotate(360deg);
+    transform:rotate(360deg);
 }
 
 nav ul {
@@ -207,4 +206,3 @@ button:hover {
         font-size: 14px;
     }
 }
-
